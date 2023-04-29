@@ -1,0 +1,13 @@
+#my-app-container {
+    border-radius: 5px;
+    flex-basis: 0px;
+    flex-grow: 1;
+    margin: 1rem 0;
+    display: block;
+    overflow-x: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    border: 2px solid #ececec;
+}

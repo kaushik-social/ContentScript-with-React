@@ -1,11 +1,12 @@
 {
   "name": "A very basic extension",
-  "version": "1.0",
-  "description": "A simple extensio with only content.js",
+  "version": "1.1",
+  "description": "A simple extension with only content.js",
   "content_scripts": [
       {
           "matches": [ "https://www.google.com/search*" ],
-          "js": [ "react-app-holder.js" ]
+          "js": [ "react-app-holder.js" ],
+          "css": ["react-app-holder.css"]
       },
       {
           "matches": [ "https://www.google.com/search*" ],
